@@ -1,0 +1,30 @@
+
+   .state-img {
+    width: 40%;
+    padding: 20px 0;
+  }
+  
+  .visible {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .state-span {
+    font-style: italic;
+    background-color: #ce0e2d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .state-button {
+    cursor: pointer;
+    box-shadow: 0px 0px 10.5008px rgba(34, 34, 34, 0.15);
+    border-radius: 5px;
+    border: unset;
+    color: white;
+    padding: 10px;
+    background-color: #ce0e2d;
+  }
+  

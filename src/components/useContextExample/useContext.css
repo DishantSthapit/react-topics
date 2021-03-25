@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  main {
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .light {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark {
+    background-color: black;
+    color: white;
+  }
+  .quote {
+    font-style: italic;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .toggle {
+    width: 90px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
