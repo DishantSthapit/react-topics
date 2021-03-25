@@ -17,3 +17,7 @@ This project showcases different React/JS topics linked to the working Codesandb
 
 
 ## Common React/JS Topics
+
+
+### [Scroll Top Logic](https://codesandbox.io/s/scroll-top-m4fug?file=/package.json)
+`Common usecase whereby we can scroll to top. Example - When reaching bottom of a web page/application`
