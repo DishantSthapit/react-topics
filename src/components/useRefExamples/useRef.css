@@ -1,0 +1,23 @@
+.wrapper {
+    width: 200px;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+  
+  .useref-button {
+    cursor: pointer;
+    margin: 5px 0;
+    border: unset;
+    background: rgba(103, 105, 104, 0.8);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px 40px;
+    width: 100%;
+  }
+  .item {
+    text-align: center;
+    background: rgba(103, 105, 104, 0.8);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px 40px;
+  }
