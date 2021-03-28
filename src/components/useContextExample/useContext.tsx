@@ -1,9 +1,9 @@
 import React from "react";
-import ThemeContext from "./context";
+import ThemeContext, { TContext } from "./context";
 import "./useContext.css";
 
 const Child = () => {
-  const { color, setColor } = React.useContext(ThemeContext);
+  const { color, setColor } = React.useContext<TContext>(ThemeContext);
 
   const handleClick = () => {
     setColor(color === "light" ? "dark" : "light");

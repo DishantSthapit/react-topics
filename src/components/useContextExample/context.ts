@@ -6,5 +6,5 @@ export type TContext = {
 };
 export const contextData: TContext = { color: "black", setColor: () => {} };
 
-const ThemeContext = React.createContext(contextData);
+const ThemeContext = React.createContext<TContext>(contextData);
 export default ThemeContext;

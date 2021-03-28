@@ -1,7 +1,7 @@
 import "./scrollTop.css";
 
 export default function ScrollTop() {
-  const colorArray = ["#ffffff", "#000000"];
+  const colorArray:Array<string> = ["#ffffff", "#000000"];
 
   return (
     <div className="App">

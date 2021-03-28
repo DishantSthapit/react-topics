@@ -10,8 +10,8 @@ export default function UseRef() {
   const node = React.useRef<HTMLButtonElement | null>(null);
   const ref = React.useRef<HTMLInputElement | null>(null);
   const childRef = React.useRef<HTMLInputElement | null>(null);
-  const [visible, setVisible] = React.useState(false);
-  const [open, setOpen] = React.useState(false);
+  const [visible, setVisible] = React.useState<boolean>(false);
+  const [open, setOpen] = React.useState<boolean>(false);
 
   const handleClick = (e:MouseEvent) => {
     const target = e.target as HTMLButtonElement;
