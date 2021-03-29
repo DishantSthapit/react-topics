@@ -15,6 +15,9 @@ This project showcases different React/JS topics linked to the working Codesandb
 ### [useState](https://codesandbox.io/s/usestate-hook-ususb)
 `useState is a Hook that lets you add React state to function components.`
 
+### [useMemo](https://codesandbox.io/s/usememo-n7lnc)
+`useMemo is a Hook that lets you improve user interface performance`
+
 
 ## Common React/JS Topics
 
